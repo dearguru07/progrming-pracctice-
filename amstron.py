@@ -40,12 +40,26 @@
 
    
     
-def Count(n):
-    count=0
-    while n!=0:
-        n=n//10
-        count+=1
-    return count
-n=int(input('entr a numb'))     
-res=Count(n)
-print(res)
+# def Count(n):
+#     count=0
+#     while n!=0:
+#         n=n//10
+#         count+=1
+#     return count
+# n=int(input('entr a numb'))     
+# res=Count(n)
+# print(res)
+
+
+# def CountD(n):
+#     Count=0
+#     while n!=0:
+#         n=n//10
+#         Count+=1
+#     return Count
+# n=int(input('emmtr a u'))    
+# res=CountD(n)
+# print(res)
+
+for i in range(1,144):
+    print("sorry😢")

@@ -79,27 +79,27 @@
 
 
 
-def Find(n):
-    count=0
-    while n!=0:
-        n=n//10
-        count+=1
-    return count
-def Amstrong(n):
-    tem=n 
-    sum=0
-    power=Find(n)
-    while n!=0:
-        rem=n%10
-        sum=sum+rem**power
-        n//=10
-    if tem==sum:
-        return True
-    else:
-        return False
-sr=int(input('enter a number'))
-er=int(input('enter a number'))
-float=True
-for i in range(sr,er+1):
-    if float==Amstrong(i):
-        print(i)
+# def Find(n):
+#     count=0
+#     while n!=0:
+#         n=n//10
+#         count+=1
+#     return count
+# def Amstrong(n):
+#     tem=n 
+#     sum=0
+#     power=Find(n)
+#     while n!=0:
+#         rem=n%10
+#         sum=sum+rem**power
+#         n//=10
+#     if tem==sum:
+#         return True
+#     else:
+#         return False
+# sr=int(input('enter a number'))
+# er=int(input('enter a number'))
+# float=True
+# for i in range(sr,er+1):
+#     if float==Amstrong(i):
+#         print(i)

@@ -65,12 +65,40 @@
 # print(res)        
 
 
-def CountD(n):
+# def CountD(n):
+#     count=0
+#     while n!=0:
+#         n=n//10
+#         count+=1
+#     return count
+# n=int(input('entr numb'))    
+# res=CountD(n)
+# print(res)
+
+
+
+def countD(n):
     count=0
     while n!=0:
         n=n//10
         count+=1
     return count
-n=int(input('entr numb'))    
-res=CountD(n)
-print(res)
+def Amstrong(n):
+    tem=n
+    sum=0
+    power=countD(n)
+    while n!=0:
+        rem=n%10
+        sum=(sum+rem**power)
+        n//=10
+    if sum==tem:
+        return True
+    else:
+        return False
+        
+n=int(input('enter a nub'))            
+float=Amstrong(n)
+if float==True:
+    print('amst')
+else:
+    print('nir')    
