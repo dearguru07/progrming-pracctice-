@@ -1,0 +1,22 @@
+.cont{
+    width: 402px;
+    padding: 10px;
+    background-color: aqua;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 7px;
+}
+button{
+    background-color: rgb(83, 221, 229);
+    padding: 12px 35px;
+    border-radius: 9px;
+    margin-top: 15px;
+    font-weight: bolder;
+    align-items: center;
+}

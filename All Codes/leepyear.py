@@ -9,17 +9,17 @@
 
 
 
-# def Year(n):
-#     if (n%100!=0 and n%4==0) or (n%400==0):
-#         print('leeep')
-#     else:
-#         print('not a leep') 
-# sr=int(input('enetr'))           
-# er=int(input('enetr'))
-# res=True 
-# for i in range(sr,er+1):
-#      if res==Year(i):
-#          print(i)
+def Year(n):
+    if (n%100!=0 and n%4==0) or (n%400==0):
+        print('leeep')
+    else:
+        print('not a leep') 
+sr=int(input('enetr'))           
+er=int(input('enetr'))
+res=True 
+for i in range(sr,er+1):
+     if res==Year(i):
+         print(i)
 
 
 
